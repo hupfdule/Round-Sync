@@ -505,6 +505,8 @@ class TaskActivity : AppCompatActivity(), FolderSelectorCallback{
                 getString(R.string.description_sync_direction_copy_toremote)
             SyncDirectionObject.COPY_REMOTE_TO_LOCAL -> text =
                 getString(R.string.description_sync_direction_copy_tolocal)
+            SyncDirectionObject.MOVE_LOCAL_TO_REMOTE -> text =
+                getString(R.string.description_sync_direction_move_toremote)
             SyncDirectionObject.SYNC_BIDIRECTIONAL -> text =
                 getString(R.string.description_sync_direction_sync_bidirectional)
         }

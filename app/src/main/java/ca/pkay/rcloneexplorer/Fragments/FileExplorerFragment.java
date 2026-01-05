@@ -1418,6 +1418,7 @@ public class FileExplorerFragment extends Fragment implements   FileExplorerRecy
                 case SyncDirectionObject.SYNC_REMOTE_TO_LOCAL: syncDirection = SyncDirectionObject.SYNC_REMOTE_TO_LOCAL; break;
                 case SyncDirectionObject.COPY_LOCAL_TO_REMOTE: syncDirection = SyncDirectionObject.COPY_LOCAL_TO_REMOTE; break;
                 case SyncDirectionObject.COPY_REMOTE_TO_LOCAL: syncDirection = SyncDirectionObject.COPY_REMOTE_TO_LOCAL; break;
+                case SyncDirectionObject.MOVE_LOCAL_TO_REMOTE: syncDirection = SyncDirectionObject.MOVE_LOCAL_TO_REMOTE; break;
                 default: syncDirection = SyncDirectionObject.SYNC_LOCAL_TO_REMOTE; break;
             }
 
