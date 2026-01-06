@@ -18,7 +18,7 @@ android {
         compileSdk 34
         targetSdkVersion 34
         versionCode 410 // last digit is reserved for ABI, only ever end on 0!
-        versionName '2.5.6'
+        versionName '2.5.6-bda00f8d+mbMH-2'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField "java.lang.String", "CLI", System.getenv('RCX_BUILD_CLI') ? System.getenv('RCX_BUILD_CLI') : "\"c03129b6-b09f-9cb4-8fcd-7f143b8f94ef\""
         buildConfigField "java.lang.String", "VCP_AUTHORITY", "\"" + applicationId + ".vcp\"";
@@ -117,11 +117,11 @@ android {
 
     buildTypes {
         getByName("debug") {
-            applicationIdSuffix = ".debug"
-            versionNameSuffix = "-DEBUG"
-            buildConfigField "java.lang.String", "VCP_AUTHORITY", "\"" + defaultConfig.applicationId + ".debug.vcp\"";
-            resValue("string", "app_name", "RS Debug")
-            resValue("string", "app_short_name", "RS Debug")
+            applicationIdSuffix = ".hupfdule"
+            versionNameSuffix = "-hupfdule"
+            buildConfigField "java.lang.String", "VCP_AUTHORITY", "\"" + defaultConfig.applicationId + ".hupfdule.vcp\"";
+            resValue("string", "app_name", "RS Hupfdule")
+            resValue("string", "app_short_name", "RS Hupfdule")
         }
     }
 
